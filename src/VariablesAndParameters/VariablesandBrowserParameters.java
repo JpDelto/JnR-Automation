@@ -56,10 +56,10 @@ public class VariablesandBrowserParameters {
 	   
 	   //BROWSER VARIABLES
 	   protected String FFDRIVER = new String("webdriver.gecko.driver");
-	   protected String FFGECKO = new String("C:\\Users\\dice205\\eclipse-workspace\\PBAL-Automation-Framework\\lib\\drivers\\geckodriver.exe");
+	   protected String FFGECKO = new String("C:\\Users\\dice205\\eclipse-workspace\\JnR-Automation\\drivers\\geckodriver.exe");
 	   protected String FFBIN = new String("webdriver.firefox.bin");
 	   protected String FFPATH = new String("C:\\Users\\Admin\\AppData\\Local\\Mozilla Firefox\\firefox.exe");
-	   protected String CHROMEPATH = new String("C:\\Users\\Admin\\eclipse-workspace\\PBAL-Automation-Framework\\lib\\drivers\\chromedriver.exe");
+	   protected String CHROMEPATH = new String("C:\\Users\\dice205\\eclipse-workspace\\JnR-Automation\\drivers\\chromedriver.exe");
 	   protected Timer pause = new Timer();
 	  
 	  /////////////////////////////////////////////////JNR VARIABLES////////////////////////////////////////////////////////////////////////

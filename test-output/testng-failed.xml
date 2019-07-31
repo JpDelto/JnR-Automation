@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
-  <parameter name="browser" value="chrome"/>
-  <test name="HOME(failed)" parallel="tests">
+  <test thread-count="5" name="Login Admin(failed)" parallel="tests">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="TestCases.HOMENAVIGATION">
+      <class name="TestCases.LoginAdmin">
         <methods>
-          <include name="LOGO"/>
+          <include name="HideAndunhidePassword"/>
+          <include name="LoginWithAdminUser"/>
+          <include name="AfterSuit"/>
           <include name="beforeTest"/>
         </methods>
-      </class> <!-- TestCases.HOMENAVIGATION -->
+      </class> <!-- TestCases.LoginAdmin -->
     </classes>
-  </test> <!-- HOME(failed) -->
+  </test> <!-- Login Admin(failed) -->
 </suite> <!-- Failed suite [Suite] -->

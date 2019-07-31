@@ -1,69 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="1" failed="0" total="1" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="345" started-at="2019-07-30T03:53:48Z" finished-at="2019-07-30T03:53:48Z">
+  <suite name="Default suite" duration-ms="15871" started-at="2019-07-26T05:24:28Z" finished-at="2019-07-26T05:24:44Z">
     <groups>
     </groups>
-    <test name="HOME" duration-ms="345" started-at="2019-07-30T03:53:48Z" finished-at="2019-07-30T03:53:48Z">
-      <class name="TestCases.HOMENAVIGATION">
-        <test-method status="FAIL" signature="beforeTest(java.lang.String)[pri:0, instance:TestCases.HOMENAVIGATION@20e2cbe0]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-07-30T11:53:48Z" finished-at="2019-07-30T11:53:48Z">
+    <test name="Default test" duration-ms="15871" started-at="2019-07-26T05:24:28Z" finished-at="2019-07-26T05:24:44Z">
+      <class name="TestCases.ExtentReportLogin">
+        <test-method status="PASS" signature="BeforeTest()[pri:0, instance:TestCases.ExtentReportLogin@2f943d71]" name="BeforeTest" is-config="true" duration-ms="15231" started-at="2019-07-26T05:24:28Z" finished-at="2019-07-26T05:24:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTest -->
+        <test-method status="PASS" signature="ShouldnotLoginWithNoCredentials()[pri:0, instance:TestCases.ExtentReportLogin@2f943d71]" name="ShouldnotLoginWithNoCredentials" duration-ms="161" started-at="2019-07-26T05:24:44Z" finished-at="2019-07-26T05:24:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShouldnotLoginWithNoCredentials -->
+        <test-method status="PASS" signature="CheckResults(org.testng.ITestResult)[pri:0, instance:TestCases.ExtentReportLogin@2f943d71]" name="CheckResults" is-config="true" duration-ms="2" started-at="2019-07-26T05:24:44Z" finished-at="2019-07-26T05:24:44Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[[TestResult name=ShouldnotLoginWithNoCredentials status=SUCCESS method=ExtentReportLogin.ShouldnotLoginWithNoCredentials()[pri:0, instance:TestCases.ExtentReportLogin@2f943d71] output={null}]]]>
               </value>
             </param>
           </params>
-          <exception class="java.lang.IllegalStateException">
-            <message>
-              <![CDATA[The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html
-	at com.google.common.base.Preconditions.checkState(Preconditions.java:847)
-	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:125)
-	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
-	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:156)
-	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:346)
-	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:91)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
-	at VariablesAndParameters.VariablesAndParameters.beforeTest(VariablesAndParameters.java:82)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
-	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:170)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:393)
-	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.IllegalStateException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="SKIP" signature="LOGO()[pri:0, instance:TestCases.HOMENAVIGATION@20e2cbe0]" name="LOGO" duration-ms="1" started-at="2019-07-30T11:53:48Z" finished-at="2019-07-30T11:53:48Z">
+        </test-method> <!-- CheckResults -->
+        <test-method status="PASS" signature="ShouldnotLoginWithEmailonly()[pri:1, instance:TestCases.ExtentReportLogin@2f943d71]" name="ShouldnotLoginWithEmailonly" duration-ms="158" started-at="2019-07-26T05:24:44Z" finished-at="2019-07-26T05:24:44Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LOGO -->
-        <test-method status="SKIP" signature="AfterSuit()[pri:0, instance:TestCases.HOMENAVIGATION@20e2cbe0]" name="AfterSuit" is-config="true" duration-ms="0" started-at="2019-07-30T11:53:48Z" finished-at="2019-07-30T11:53:48Z">
+        </test-method> <!-- ShouldnotLoginWithEmailonly -->
+        <test-method status="PASS" signature="AfterTest()[pri:0, instance:TestCases.ExtentReportLogin@2f943d71]" name="AfterTest" is-config="true" duration-ms="299" started-at="2019-07-26T05:24:44Z" finished-at="2019-07-26T05:24:44Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AfterSuit -->
-      </class> <!-- TestCases.HOMENAVIGATION -->
-    </test> <!-- HOME -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- AfterTest -->
+        <test-method status="PASS" signature="CheckResults(org.testng.ITestResult)[pri:0, instance:TestCases.ExtentReportLogin@2f943d71]" name="CheckResults" is-config="true" duration-ms="0" started-at="2019-07-26T05:24:44Z" finished-at="2019-07-26T05:24:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ShouldnotLoginWithEmailonly status=SUCCESS method=ExtentReportLogin.ShouldnotLoginWithEmailonly()[pri:1, instance:TestCases.ExtentReportLogin@2f943d71] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckResults -->
+      </class> <!-- TestCases.ExtentReportLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

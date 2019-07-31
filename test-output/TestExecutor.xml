@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Suite" parallel="none"> <!-- change "none" to "tests" for parallel browser testing -->
+
+
+	<test name="ExtentReportNavigation">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="TestCases.LoginAdmin" />
+		</classes>
+	</test>
+
+<!--  	<test name="Navigation Internal">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="TestCases.ManageUsers" />
+		</classes>
+	</test> -->
+<!-- 
+	<test name="Navigation Creatives"> 
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="TestCases.NavigationCreatives" />
+		</classes>
+	</test> -->
+	 
+<!-- 	<test name="SLA">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="TestCases.SLA" />
+		</classes>
+	</test> -->
+
+
+<!-- 
+	<test name="Google chrome3">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="TestCases.InternalChangePW" />
+		</classes>
+	</test>
+	<test name="Google chrome4">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="TestCases.CrudUser" />
+		</classes>
+	</test>
+	<test name="Google 
+		chrome5">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="TestCases.UploadAssetBasic" />
+		</classes>
+	</test>
+	<test name="Firefox">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="TestCases.TestNavigationAdmin" />
+		</classes>
+	</test>
+	<test name="Firefox1">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="TestCases.TestNavigationInternal" />
+		</classes>
+	</test>
+	<test name="Firefox2">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="TestCases.TestNavigationCreatives" />
+		</classes>
+	</test>
+	<test name="Firefox3">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="TestCases.InternalChangePW" />
+		</classes>
+	</test>
+	<test name="Microsoft Edge">
+		<parameter name="browser" value="edge" />
+		<classes>
+			<class name="TestCases.TestNavigationAdmin" />
+		</classes>
+	</test>
+	<test name="Microsoft edge1">
+		<parameter name="browser" value="edge" />
+		<classes>
+			<class name="TestCases.TestNavigationInternal" />
+		</classes>
+	</test>
+	<test name="Microsoft Edge2">
+		<parameter name="browser" value="edge" />
+		<classes>
+			<class name="TestCases.TestNavigationCreatives" />
+		</classes>
+	</test>
+	<test name="Microsoft Edge3">
+		<parameter name="browser" value="edge" />
+		<classes>
+			<class name="TestCases.InternalChangePW" />
+		</classes>
+	</test> -->
+
+
+
+</suite>
