@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <parameter name="browser" value="chrome"/>
+  <test name="HOME(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="TestCases.HOMENAVIGATION">
+        <methods>
+          <include name="LOGO"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- TestCases.HOMENAVIGATION -->
+    </classes>
+  </test> <!-- HOME(failed) -->
+</suite> <!-- Failed suite [Suite] -->

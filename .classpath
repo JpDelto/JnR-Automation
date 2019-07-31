@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/dice205/eclipse-workspace/PBAL-Automation/lib/ant-1.7.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/dice205/eclipse-workspace/PBAL-Automation/lib/ant-launcher-1.7.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/dice205/eclipse-workspace/PBAL-Automation/lib/bsh-2.0b4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/dice205/eclipse-workspace/PBAL-Automation/lib/bson-3.0.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/dice205/eclipse-workspace/PBAL-Automation/lib/extentreports-2.41.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/dice205/eclipse-workspace/PBAL-Automation/lib/freemarker-2.3.23.jar"/>
+	<classpathentry kind="lib" path="C:/Users/dice205/eclipse-workspace/PBAL-Automation/lib/hamcrest-core-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/dice205/eclipse-workspace/PBAL-Automation/lib/javax.mail.jar"/>
+	<classpathentry kind="lib" path="C:/Users/dice205/eclipse-workspace/PBAL-Automation/lib/jcommander-1.48.jar"/>
+	<classpathentry kind="lib" path="C:/Users/dice205/eclipse-workspace/PBAL-Automation/lib/jsoup-1.8.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/dice205/eclipse-workspace/PBAL-Automation/lib/junit-4.10.jar"/>
+	<classpathentry kind="lib" path="C:/Users/dice205/eclipse-workspace/PBAL-Automation/lib/mongodb-driver-3.0.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/dice205/eclipse-workspace/PBAL-Automation/lib/mongodb-driver-core-3.0.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/dice205/eclipse-workspace/PBAL-Automation/lib/selenium-server-standalone-3.14.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/dice205/eclipse-workspace/PBAL-Automation/lib/snakeyaml-1.15.jar"/>
+	<classpathentry kind="lib" path="C:/Users/dice205/eclipse-workspace/PBAL-Automation/lib/sqlite-jdbc-3.8.11.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/dice205/eclipse-workspace/PBAL-Automation/lib/testng-6.9.9.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
