@@ -24,8 +24,11 @@ import org.testng.annotations.Parameters;
 public class VariablesandBrowserParameters {
 		//Sample Variables declaration
 	   //LOG-IN VARIABLES 
-	   protected String WEBSITE = new String("https://phoenix_epod_app.dice205.asia/");
-	   protected String EMAILFIELDS = new String("//input[@name='username']");
+	
+	   protected String WEBSITE = new String("https://jnr.dice205.asia/#");
+	   
+	   
+	 /*  protected String EMAILFIELDS = new String("//input[@name='username']");
 	   protected String PASSFIELDS = new String("//input[@name='pass']");
 	   protected String LOGIN = new String("//button[@class='login100-form-btn']");
 	   protected String FORGOTPASSWORD = new String("//a[contains(text(),'Forgot your password?')]");
@@ -51,7 +54,7 @@ public class VariablesandBrowserParameters {
 	   protected String USERNAMEINPUT = new String("juan.delacruz");
 	   protected String USERFIRSTNAMEINPUT = new String("Juan");
 	   protected String USERLASTNAMEINPUT = new String("Dela Cruz");
-
+*/
 	   
 	   
 	   //BROWSER VARIABLES
@@ -62,7 +65,16 @@ public class VariablesandBrowserParameters {
 	   protected String CHROMEPATH = new String("C:\\Users\\Admin\\eclipse-workspace\\PBAL-Automation-Framework\\lib\\drivers\\chromedriver.exe");
 	   protected Timer pause = new Timer();
 	  
-	   
+	   //JNR VARIABLES
+	   protected String LOGO = new String("//img[contains(@class,'header-logo')]");
+	   protected String PRODUCTCATEGORIES1 = new String("//div[1]//a[1]//div[1]//div[2]//h2[1]");
+	   protected String PRODUCTCATEGORIES2 = new String("//div[1]//a[2]//div[1]//div[2]//h2[1]");
+	   protected String PRODUCTCATEGORIES3 = new String("/html[1]/body[1]/div[3]/div[1]/a[3]/div[1]/div[2]");
+	   protected String PRODUCTCATEGORIES4 = new String("/html[1]/body[1]/div[3]/div[1]/a[4]/div[1]/div[2]/h2[1]");
+	   protected String PRODUCTCATEGORIES5 = new String("/html[1]/body[1]/div[3]/div[2]/a[1]/div[1]/div[2]/h2[1]");
+	   protected String PRODUCTCATEGORIES6 = new String("/html[1]/body[1]/div[3]/div[2]/a[2]/div[1]/div[2]");
+	   protected String PRODUCTCATEGORIES7 = new String("/html[1]/body[1]/div[3]/div[2]/a[3]/div[1]/div[2]/h2[1]");
+	   protected String PRODUCTCATEGORIES8 = new String("/html[1]/body[1]/div[3]/div[2]/a[4]/div[1]/div[2]/h2[1]");
 	   
 	   public WebDriver driver;
 	   @Parameters("browser")
