@@ -115,7 +115,7 @@ public class VariablesandBrowserParameters {
 	    ChromeOptions options = new ChromeOptions();     //For headless browser  
 	    options.addArguments("--headless");              //
 	    /*options.addArguments("windows-size=1366,768");  */ //
-	    options.addArguments("test-type");
+	   /* options.addArguments("test-type");*/
         options.addArguments("--start-maximized");
        
         options.addArguments("--disable-web-security");
