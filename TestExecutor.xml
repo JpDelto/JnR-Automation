@@ -4,14 +4,13 @@
 <suite name="Suite" parallel="tests"> <!-- change "none" to "tests" for parallel browser testing -->
 
 
-	<test name="Login Admin">
+	<test name="HOME">
 		<parameter name="browser" value="chrome" />
 		<classes>
-			<class name="TestCases.LoginAdmin" />
+			<class name="TestCases.JnRNavigation" />
+			
 		</classes>
 	</test>
-	
-	
 	
 
 

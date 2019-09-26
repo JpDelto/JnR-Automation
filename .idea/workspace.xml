@@ -1,215 +1,261 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-	<component name="ChangeListManager">
-		<list default="true" id="641439f0-5a9a-4e7c-b142-795193c61a3e"
-			name="Default Changelist" comment="" />
-		<ignored path="$PROJECT_DIR$/bin/" />
-		<option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-		<option name="SHOW_DIALOG" value="false" />
-		<option name="HIGHLIGHT_CONFLICTS" value="true" />
-		<option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
-		<option name="LAST_RESOLUTION" value="IGNORE" />
-	</component>
-	<component name="FileEditorManager">
-		<leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-			<file pinned="false" current-in-tab="false">
-				<entry
-					file="file://$PROJECT_DIR$/src/TestCases/CreateDLRequestAdvance.java">
-					<provider selected="true" editor-type-id="text-editor">
-						<state relative-caret-position="51">
-							<caret line="16" column="13" selection-start-line="16"
-								selection-start-column="13" selection-end-line="16"
-								selection-end-column="13" />
-						</state>
-					</provider>
-				</entry>
-			</file>
-			<file pinned="false" current-in-tab="true">
-				<entry
-					file="file://$PROJECT_DIR$/src/TestCases/VariablesandBrowserParameters.java">
-					<provider selected="true" editor-type-id="text-editor">
-						<state relative-caret-position="-1360">
-							<caret line="19" column="61" lean-forward="true"
-								selection-start-line="19" selection-start-column="61"
-								selection-end-line="19" selection-end-column="61" />
-							<folding>
-								<element signature="imports" expanded="true" />
-							</folding>
-						</state>
-					</provider>
-				</entry>
-			</file>
-			<file pinned="false" current-in-tab="false">
-				<entry file="file://$PROJECT_DIR$/src/TestCases/Timer.java">
-					<provider selected="true" editor-type-id="text-editor">
-						<state relative-caret-position="454">
-							<caret line="64" lean-forward="true"
-								selection-start-line="3" selection-start-column="4"
-								selection-end-line="64" />
-						</state>
-					</provider>
-				</entry>
-			</file>
-		</leaf>
-	</component>
-	<component name="ProjectFrameBounds">
-		<option name="x" value="11" />
-		<option name="y" value="36" />
-		<option name="width" value="1346" />
-		<option name="height" value="696" />
-	</component>
-	<component name="ProjectView">
-		<navigator proportions="" version="1">
-			<foldersAlwaysOnTop value="true" />
-		</navigator>
-		<panes>
-			<pane id="PackagesPane" />
-			<pane id="Scope" />
-			<pane id="ProjectPane">
-				<subPane>
-					<expand>
-						<path>
-							<item name="PBAL" type="b2602c69:ProjectViewProjectNode" />
-							<item name="PBAL" type="462c0819:PsiDirectoryNode" />
-						</path>
-						<path>
-							<item name="PBAL" type="b2602c69:ProjectViewProjectNode" />
-							<item name="PBAL" type="462c0819:PsiDirectoryNode" />
-							<item name="src" type="462c0819:PsiDirectoryNode" />
-						</path>
-						<path>
-							<item name="PBAL" type="b2602c69:ProjectViewProjectNode" />
-							<item name="PBAL" type="462c0819:PsiDirectoryNode" />
-							<item name="src" type="462c0819:PsiDirectoryNode" />
-							<item name="TestCases" type="462c0819:PsiDirectoryNode" />
-						</path>
-					</expand>
-					<select />
-				</subPane>
-			</pane>
-		</panes>
-	</component>
-	<component name="PropertiesComponent">
-		<property name="last_opened_file_path" value="$PROJECT_DIR$" />
-	</component>
-	<component name="RunDashboard">
-		<option name="ruleStates">
-			<list>
-				<RuleState>
-					<option name="name"
-						value="ConfigurationTypeDashboardGroupingRule" />
-				</RuleState>
-				<RuleState>
-					<option name="name" value="StatusDashboardGroupingRule" />
-				</RuleState>
-			</list>
-		</option>
-	</component>
-	<component name="SvnConfiguration">
-		<configuration />
-	</component>
-	<component name="TaskManager">
-		<task active="true" id="Default" summary="Default task">
-			<changelist id="641439f0-5a9a-4e7c-b142-795193c61a3e"
-				name="Default Changelist" comment="" />
-			<created>1551411014561</created>
-			<option name="number" value="Default" />
-			<option name="presentableId" value="Default" />
-			<updated>1551411014561</updated>
-		</task>
-		<servers />
-	</component>
-	<component name="ToolWindowManager">
-		<frame x="11" y="36" width="1346" height="696"
-			extended-state="0" />
-		<editor active="true" />
-		<layout>
-			<window_info active="true" content_ui="combo"
-				id="Project" order="0" visible="true" weight="0.2534992" />
-			<window_info id="Structure" order="1" side_tool="true"
-				weight="0.25" />
-			<window_info id="Designer" order="2" />
-			<window_info id="Image Layers" order="3" />
-			<window_info id="Capture Tool" order="4" />
-			<window_info id="UI Designer" order="5" />
-			<window_info id="Learn" order="6" />
-			<window_info id="Favorites" order="7" side_tool="true" />
-			<window_info anchor="bottom" id="Message" order="0" />
-			<window_info anchor="bottom" id="Find" order="1" />
-			<window_info anchor="bottom" id="Run" order="2" />
-			<window_info anchor="bottom" id="Debug" order="3"
-				weight="0.4" />
-			<window_info anchor="bottom" id="Cvs" order="4"
-				weight="0.25" />
-			<window_info anchor="bottom" id="Inspection" order="5"
-				weight="0.4" />
-			<window_info anchor="bottom" id="TODO" order="6" />
-			<window_info anchor="bottom" id="Terminal" order="7" />
-			<window_info anchor="bottom" id="Event Log" order="8"
-				side_tool="true" />
-			<window_info anchor="bottom" id="Version Control"
-				order="9" />
-			<window_info anchor="right" id="Commander"
-				internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-			<window_info anchor="right" id="Ant Build" order="1"
-				weight="0.25" />
-			<window_info anchor="right" content_ui="combo"
-				id="Hierarchy" order="2" weight="0.25" />
-			<window_info anchor="right" id="Palette" order="3" />
-			<window_info anchor="right" id="Maven" order="4" />
-			<window_info anchor="right" id="Theme Preview" order="5" />
-			<window_info anchor="right" id="Capture Analysis"
-				order="6" />
-			<window_info anchor="right" id="Palette&#9;" order="7" />
-		</layout>
-	</component>
-	<component name="editorHistoryManager">
-		<entry
-			file="file://$PROJECT_DIR$/src/TestCases/CreateDLRequestAdvance.java">
-			<provider selected="true" editor-type-id="text-editor">
-				<state relative-caret-position="51">
-					<caret line="16" column="13" selection-start-line="16"
-						selection-start-column="13" selection-end-line="16"
-						selection-end-column="13" />
-				</state>
-			</provider>
-		</entry>
-		<entry file="file://$PROJECT_DIR$/src/TestCases/Timer.java">
-			<provider selected="true" editor-type-id="text-editor">
-				<state relative-caret-position="454">
-					<caret line="64" lean-forward="true" selection-start-line="3"
-						selection-start-column="4" selection-end-line="64" />
-				</state>
-			</provider>
-		</entry>
-		<entry
-			file="file://$PROJECT_DIR$/src/TestCases/VariablesandBrowserParameters.java">
-			<provider selected="true" editor-type-id="text-editor">
-				<state relative-caret-position="-1360">
-					<caret line="19" column="61" lean-forward="true"
-						selection-start-line="19" selection-start-column="61"
-						selection-end-line="19" selection-end-column="61" />
-					<folding>
-						<element signature="imports" expanded="true" />
-					</folding>
-				</state>
-			</provider>
-		</entry>
-	</component>
-	<component name="masterDetails">
-		<states>
-			<state key="ProjectJDKs.UI">
-				<settings>
-					<last-edited>10</last-edited>
-					<splitter-proportions>
-						<option name="proportions">
-							<list>
-								<option value="0.2" />
-							</list>
-						</option>
-					</splitter-proportions>
-				</settings>
-			</state>
-		</states>
-	</component>
+  <component name="ChangeListManager">
+    <list default="true" id="caee155b-b7d1-40ca-ae01-f4a9d6ad0ea8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IEDriverServer.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MicrosoftWebDriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestExecutor.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestScripts/TestCases/CreateDLRequestAdvance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestScripts/TestCases/CreateShareRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestScripts/TestCases/CreateUserFieldValidation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestScripts/TestCases/CrudUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestScripts/TestCases/CustomizationRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestScripts/TestCases/EmailReport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestScripts/TestCases/ExtentFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestScripts/TestCases/ExtentReportNavigationAdmin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestScripts/TestCases/InternalChangePW.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestScripts/TestCases/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestScripts/TestCases/ManageFolder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestScripts/TestCases/NavigationAdmin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestScripts/TestCases/NavigationCreatives.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestScripts/TestCases/NavigationInternal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestScripts/TestCases/RejectedCustomization.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestScripts/TestCases/Timer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestScripts/TestCases/UploadAssetExtentReport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestScripts/TestCases/VariablesandBrowserParameters.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestScripts/TestCases/VariablesandElements.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/TestCases/CreateDLRequestAdvance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/TestCases/CreateShareRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/TestCases/CreateUserFieldValidation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/TestCases/CrudUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/TestCases/CustomizationRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/TestCases/EmailReport$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/TestCases/EmailReport.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/TestCases/ExtentFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/TestCases/ExtentReportNavigationAdmin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/TestCases/InternalChangePW.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/TestCases/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/TestCases/ManageFolder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/TestCases/NavigationAdmin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/TestCases/NavigationCreatives.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/TestCases/NavigationInternal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/TestCases/RejectedCustomization.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/TestCases/Timer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/TestCases/UploadAssetExtentReport.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/TestCases/VariablesandBrowserParameters.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/TestCases/VariablesandElements.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../extent-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/drivers/chrome/chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/drivers/edge/MicrosoftWebDriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/drivers/firefox/geckodriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/drivers/ie/IEDriverServer.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/seleniumjava/client-combined-3.14.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/seleniumjava/client-combined-3.14.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/seleniumjava/selenium-server-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/seleniumjava/selenium-server-standalone-3.14.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/Default suite/Default test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/Default suite/Default test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/Default suite/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/Suite/Firefox.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/Suite/Firefox.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/Suite/Firefox1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/Suite/Firefox1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/Suite/Firefox2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/Suite/Firefox2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/Suite/FirefoxTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/Suite/FirefoxTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/Suite/Googe chrome.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/Suite/Googe chrome.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/Suite/Googe chrome1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/Suite/Googe chrome1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/Suite/Googe chrome2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/Suite/Googe chrome2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/Suite/Google chrome.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/Suite/Google chrome.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/Suite/Google chrome1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/Suite/Google chrome1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/Suite/Google chrome2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/Suite/Google chrome2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/Suite/Google chrome3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/Suite/Google chrome3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/Suite/Google chrome4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/Suite/Google chrome4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/Suite/Google chrome5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/Suite/Google chrome5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/Suite/Internet Explorer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/Suite/Internet Explorer.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/Suite/Microsoft Edge.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/Suite/Microsoft Edge.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/Suite/Microsoft Edge2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/Suite/Microsoft Edge2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/Suite/Microsoft edge1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/Suite/Microsoft edge1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/Suite/Test Report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/Suite/Test Report.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/Suite/chrometest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/Suite/chrometest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/Suite/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/bullet_point.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/collapseall.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/extent-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/failed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/jquery-1.7.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/junitreports/TEST-TestCases.AdminNavigationTestNG.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/junitreports/TEST-TestCases.CreateDLRequestAdvance.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/junitreports/TEST-TestCases.CreateShareRequest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/junitreports/TEST-TestCases.CreateUserFieldValidation.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/junitreports/TEST-TestCases.CrudUser.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/junitreports/TEST-TestCases.ExtentReportNavigationAdmin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/junitreports/TEST-TestCases.InternalChangePW.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/junitreports/TEST-TestCases.MultiBrowser.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/junitreports/TEST-TestCases.NavigationAdmin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/junitreports/TEST-TestCases.NavigationInternal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/junitreports/TEST-TestCases.SampleTestsuit.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/junitreports/TEST-TestCases.TestLoginExtentReport.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/junitreports/TEST-TestCases.TestNavigationAdmin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/junitreports/TEST-TestCases.TestNavigationCreatives.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/junitreports/TEST-TestCases.TestNavigationInternal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/junitreports/TEST-TestCases.UploadAsset.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/junitreports/TEST-TestCases.UploadAssetBasic.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/junitreports/TEST-TestCases.UploadAssetExtentReport.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/junitreports/TEST-TestCases.UploadBasic.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/junitreports/TEST-TestLogin.AdminNavigationTestNG.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/junitreports/TEST-TestLogin.NavigationAdminTestNG.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/junitreports/TEST-TestLogin.NewTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/navigator-bullet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/old/Default suite/Default test.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/old/Default suite/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/old/Default suite/groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/old/Default suite/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/old/Default suite/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/old/Default suite/methods-alphabetical.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/old/Default suite/methods-not-run.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/old/Default suite/methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/old/Default suite/reporter-output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/old/Default suite/testng.xml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/old/Default suite/toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/old/Suite/Firefox.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/old/Suite/Firefox1.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/old/Suite/Firefox2.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/old/Suite/FirefoxTest.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/old/Suite/Googe chrome.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/old/Suite/Googe chrome1.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/old/Suite/Googe chrome2.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/old/Suite/Google chrome.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/old/Suite/Google chrome1.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/old/Suite/Google chrome2.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/old/Suite/Google chrome3.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/old/Suite/Google chrome4.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/old/Suite/Google chrome5.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/old/Suite/Internet Explorer.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/old/Suite/Microsoft Edge.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/old/Suite/Microsoft Edge2.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/old/Suite/Microsoft edge1.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/old/Suite/Test Report.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/old/Suite/chrometest.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/old/Suite/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/old/Suite/groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/old/Suite/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/old/Suite/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/old/Suite/methods-alphabetical.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/old/Suite/methods-not-run.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/old/Suite/methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/old/Suite/reporter-output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/old/Suite/testng.xml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/old/Suite/toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/old/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/passed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/skipped.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/testng-reports.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/testng-reports.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/testng-results.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-output/testng.css" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1RLxVV3d1qaJMwtZyzmv68EzCza" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="C:/Users/dice205/eclipse-workspace/JnR-Automation/TestExecutor.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PBAL" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/TestExecutor.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.C:/Users/dice205/eclipse-workspace/JnR-Automation/TestExecutor.xml" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="caee155b-b7d1-40ca-ae01-f4a9d6ad0ea8" name="Default Changelist" comment="" />
+      <created>1569460200249</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1569460200249</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
 </project>

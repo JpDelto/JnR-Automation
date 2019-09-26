@@ -1,14 +1,17 @@
 package VariablesAndParameters;
 
 
+
 import java.io.IOException;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 /*import org.openqa.selenium.chrome.ChromeOptions;*/
 //import org.openqa.selenium.edge.EdgeDriver;
 //import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
 /*import org.openqa.selenium.firefox.FirefoxOptions;*/
 //import org.openqa.selenium.ie.InternetExplorerDriver;
 //import org.testng.annotations.AfterClass;
@@ -24,8 +27,11 @@ import org.testng.annotations.Parameters;
 public class VariablesandBrowserParameters {
 		//Sample Variables declaration
 	   //LOG-IN VARIABLES 
+	
 	   protected String WEBSITE = new String("https://jnr.dice205.asia/#");
-	   /*protected String EMAILFIELDS = new String("//input[@name='username']");
+	   
+	   
+	 /*  protected String EMAILFIELDS = new String("//input[@name='username']");
 	   protected String PASSFIELDS = new String("//input[@name='pass']");
 	   protected String LOGIN = new String("//button[@class='login100-form-btn']");
 	   protected String FORGOTPASSWORD = new String("//a[contains(text(),'Forgot your password?')]");
@@ -37,7 +43,7 @@ public class VariablesandBrowserParameters {
 	   protected String MENUBUTTON = new String("//*[@class='menu-bar-breed']");
 	   protected String WELCOMEMESSAGE = new String("//h5[@class='modal-title']");
 	   protected String CLOSEMODAL = new String("//button[@class='btn btn-secondary']");
-       
+
 
 	   
 	   //MANAGE USERS VARIABLES
@@ -50,40 +56,40 @@ public class VariablesandBrowserParameters {
 	   protected String USEREMAILINPUT = new String("Juandelacruz@gmail.com");
 	   protected String USERNAMEINPUT = new String("juan.delacruz");
 	   protected String USERFIRSTNAMEINPUT = new String("Juan");
-	   protected String USERLASTNAMEINPUT = new String("Dela Cruz");*/
-
+	   protected String USERLASTNAMEINPUT = new String("Dela Cruz");
+*/
 	   
 	   
 	   //BROWSER VARIABLES
 	   protected String FFDRIVER = new String("webdriver.gecko.driver");
-	   protected String FFGECKO = new String("C:\\Users\\dice205\\eclipse-workspace\\JnR-Automation\\drivers\\geckodriver.exe");
+	   protected String FFGECKO = new String("C:\\Users\\dice205\\eclipse-workspace\\PBAL-Automation-Framework\\lib\\drivers\\geckodriver.exe");
 	   protected String FFBIN = new String("webdriver.firefox.bin");
 	   protected String FFPATH = new String("C:\\Users\\Admin\\AppData\\Local\\Mozilla Firefox\\firefox.exe");
-	   protected String CHROMEPATH = new String("C:\\Users\\dice205\\eclipse-workspace\\JnR-Automation\\drivers\\chromedriver.exe");
+	   protected String CHROMEPATH = new String("C:\\Users\\Admin\\eclipse-workspace\\PBAL-Automation-Framework\\lib\\drivers\\chromedriver.exe");
 	   protected Timer pause = new Timer();
 	  
-	  /////////////////////////////////////////////////JNR VARIABLES////////////////////////////////////////////////////////////////////////
-	   
-	   protected String LOGO = new String("//img[contains(@class,'header-logo')]");
-	   protected String CAROUSELRIGHT = new String("//i[@class='fa fa-angle-right fa-3x control-fa-angle']");
-	   protected String CAROUSELLEFT = new String("//i[@class='fa fa-angle-left fa-3x control-fa-angle']");
-	   protected String CAROUSELPROMORIGHT = new String("//i[@class='fa fa-angle-right fa-5x control-fa-angle']");
-	   protected String CAROUSELPROMOLEFT = new String("//i[@class='fa fa-angle-left fa-5x control-fa-angle']");
-	   protected String PRODUCTCATEGORIES1 = new String("//div[1]//a[1]//div[1]//div[2]//h2[1]");
-	   protected String PRODUCTCATEGORIES2 = new String("//div[1]//a[2]//div[1]//div[2]//h2[1]");
-	   protected String PRODUCTCATEGORIES3 = new String("//div[1]//a[3]//div[1]//div[2]//h2[1]");
-	   protected String PRODUCTCATEGORIES4 = new String("//div[1]//a[4]//div[1]//div[2]//h2[1]");
-	   protected String PRODUCTCATEGORIES5 = new String("//div[2]//a[1]//div[1]//div[2]//h2[1]");
-	   protected String PRODUCTCATEGORIES6 = new String("//div[2]//a[2]//div[1]//div[2]//h2[1]");
-	   protected String PRODUCTCATEGORIES7 = new String("//div[2]//a[3]//div[1]//div[2]//h2[1]");
-	   protected String PRODUCTCATEGORIES8 = new String("//div[2]//a[4]//div[1]//div[2]//h2[1]");
+	   //JNR VARIABLES
+	   protected String LOGO = new String("//img[contains(@class,'nav-logo')]");
+	   protected String PRODUCTCATEGORIES1 = new String("body > div.home-categories-section > div > div:nth-child(1) > div > a > button");
+	   protected String PRODUCTCATEGORIES2 = new String("body > div.home-categories-section > div > div:nth-child(2) > div > a > button");
+	   protected String PRODUCTCATEGORIES3 = new String("body > div.home-categories-section > div > div:nth-child(3) > div > a > button");
+	   protected String PRODUCTCATEGORIES4 = new String("body > div.home-categories-section > div > div:nth-child(4) > div > a > button");
+	   protected String PRODUCTCATEGORIES5 = new String("body > div.home-categories-section > div > div:nth-child(5) > div > a > button");
+	   protected String PRODUCTCATEGORIES6 = new String("body > div.home-categories-section > div > div:nth-child(6) > div > a > button");
+	   protected String PRODUCTCATEGORIES7 = new String("body > div.home-categories-section > div > div:nth-child(7) > div > a > button");
+	   protected String PRODUCTCATEGORIES8 = new String("body > div.home-categories-section > div > div:nth-child(7) > div > a > button");
+	   protected String PRODUCTCATEGORIES9 = new String("body > div.home-categories-section > div > div:nth-child(9) > div > a > button");
+	   ///TABS
+	   protected String ABOUTUS = new String("/html[1]/body[1]/nav[1]/div[1]/ul[1]/li[2]/a[1]");
+	   protected String PRODUCTS = new String("/html[1]/body[1]/nav[1]/div[1]/ul[1]/li[3]/a[1]");
+	   protected String BRANDS = new String("/html[1]/body[1]/nav[1]/div[1]/ul[1]/li[4]/a[1] ");
+	   protected String PROMOS = new String("/html[1]/body[1]/nav[1]/div[1]/ul[1]/li[5]/a[1] ");
+	   protected String CONTACTUS = new String("/html[1]/body[1]/nav[1]/div[1]/ul[1]/li[6]/a[1]");
+	   //CONTACT US
 	   protected String NAME = new String("/html[1]/body[1]/div[4]/div[1]/div[2]/div[2]/form[1]/div[1]/input[1]");
-	   protected String CONTACTNUMBER = new String("/html[1]/body[1]/div[4]/div[1]/div[2]/div[2]/form[1]/div[2]/input[1]");
+	   protected String CONTACTNUMBER = new String("/html[1]/body[1]/div[4]/div[1]/div[2]/div[2]/form[1]/div[2]/div[1]/input[1]");
 	   protected String EMAIL = new String("/html[1]/body[1]/div[4]/div[1]/div[2]/div[2]/form[1]/div[3]/input[1]");
 	   protected String MESSAGE = new String("/html[1]/body[1]/div[4]/div[1]/div[2]/div[2]/form[1]/div[4]/textarea[1]");
-	   protected String FACEBOOK = new String("//img[@class='facebook-logo']");
-	   protected String GMAIL = new String("//img[@class='gmail-logo']");
-	   
 	   
 	   public WebDriver driver;
 	   @Parameters("browser")
@@ -105,17 +111,22 @@ public class VariablesandBrowserParameters {
 */	    driver = new FirefoxDriver();
  	    
 	   }else if (browser.equalsIgnoreCase("chrome")) {   
-	  /*  ChromeOptions options = new ChromeOptions();     //For headless browser  
+		   DesiredCapabilities capabilities = DesiredCapabilities.chrome();
+	    ChromeOptions options = new ChromeOptions();     //For headless browser  
 	    options.addArguments("--headless");              //
-	    options.addArguments("windows-size=1366,768");   //
+	    /*options.addArguments("windows-size=1366,768");  */ //
+	    options.addArguments("test-type");
+        options.addArguments("--start-maximized");
+       
+        options.addArguments("--disable-web-security");
+        options.addArguments("--allow-running-insecure-content");
+        capabilities.setCapability(ChromeOptions.CAPABILITY, options);
+	    driver = new ChromeDriver(options);              
 	    
-	  
-	    driver = new ChromeDriver(options);   */           
 	    
-	    
-		   
+/*		   
 	    driver = new ChromeDriver();
-	   
+	   */
 	    
 	   }/*else if (browser.equalsIgnoreCase("edge")) {    
 		EdgeOptions options = new EdgeOptions();
